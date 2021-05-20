@@ -7,7 +7,7 @@ import datetime
 
 
 client = discord.Client()
-CHANNEL_ID = 831420404286881827 # 任意のチャンネルID(int)
+CHANNEL_ID =  # 任意のチャンネルID(int)
 path = "C:/Users/avatail/Desktop/学習用プロジェクト/discord_bot2/.user_info/"
 datetime_today = f'{datetime.date.today()}'
 user_info_list = []
@@ -65,4 +65,4 @@ async def on_message(message):
         await sys.exit()
 
 # token にDiscordのデベロッパサイトで取得したトークンを入れてください
-client.run("ODQxMzA4MjEyMTgzODI2NDQ0.YJk3VA.F-5ZkiZjxCZMaCsmMyrYcYqFAOM")
+client.run("")
